@@ -13,7 +13,8 @@ const MAPPING = {
     'paperplane.fill': 'send',
     'chevron.left.forwardslash.chevron.right': 'code',
     'chevron.right': 'chevron-right',
-    'contact.phone': 'contact-phone'
+    'contact.phone': 'contact-phone',
+    'coffee': 'coffee'
 } as Partial<Record<
     import('expo-symbols').SymbolViewProps['name'],
     React.ComponentProps<typeof MaterialIcons>['name']
